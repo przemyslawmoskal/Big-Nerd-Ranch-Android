@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical" >
+
+    <DatePicker
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/dialog_date_picker" >
+    </DatePicker>
+
+    <Button
+        android:id="@+id/ok_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        style="?android:attr/buttonBarButtonStyle"
+        android:text="@string/ok_button_text" />
+</LinearLayout>
