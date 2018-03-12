@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/search"
+        app:showAsAction="ifRoom"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        android:id="@+id/menu_item_search"/>
+    <item
+        android:title="@string/clear_search"
+        app:showAsAction="never"
+        android:id="@+id/menu_item_clear"/>
+</menu>
