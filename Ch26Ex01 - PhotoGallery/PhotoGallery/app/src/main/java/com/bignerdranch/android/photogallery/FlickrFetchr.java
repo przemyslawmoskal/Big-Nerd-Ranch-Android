@@ -17,8 +17,9 @@ import java.util.List;
 
 public class FlickrFetchr {
     private static final String TAG = "FlickrFetchr";
-    private static final String API_KEY = "f073d80b5e63fc61c320bb0d1a879844";
-
+    /*  In the following line you need to put your API key in the place of yourApiKeyHere String
+    private static final String API_KEY = "yourApiKeyHere";
+    */
     public byte[] getUrlBytes(String urlSpec) throws IOException {
         URL url = new URL(urlSpec);
         HttpURLConnection connection = (HttpURLConnection) url.openConnection();
