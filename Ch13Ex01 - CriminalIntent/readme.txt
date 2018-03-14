@@ -1,4 +1,4 @@
-Challenge: Deleting Crimes
+Ch13Ex01: Deleting Crimes
 
 Once a crime has been created in CriminalIntent, there is no way to erase
 that crime from the official record. For this challenge, add a new action item to
